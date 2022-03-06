@@ -1,0 +1,10 @@
+// 匯入bootstrap
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap";
+// 單獨匯入bootstrap變數檔案，將_variables.scss複製一份放到helpers資料夾
+@import "./helpers/_variables";
+// 匯入login頁面scss內容檔案
+@import "./helpers/login";
+// 匯入客製關閉按鈕scss內容檔案
+@import "./helpers/crossButton";
