@@ -73,7 +73,7 @@ export default {
 
             // 使用解構手法，因為res.data裡有token及expired
             const { token, expired } = res.data
-            console.log(token, expired)
+            // console.log(token, expired)
             // 增加cookie
             document.cookie = `hexToken=${token};expired=${new Date(
               expired
